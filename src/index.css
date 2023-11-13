@@ -60,9 +60,18 @@ main {
   text-align: left;
 }
 
+.article h1 {
+  text-align: center;
+  text-transform: uppercase
+}
+
 .article-image {
   position: relative;
   padding-bottom: 50%;
+}
+
+.article-intro {
+  font-weight: bold;
 }
 
 .article-image:hover .article-image-background {

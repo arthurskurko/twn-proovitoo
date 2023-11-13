@@ -35,7 +35,7 @@ export default function Article() {
             {!loading && <div>
                 <h1>{article.title}</h1>
 
-                <div dangerouslySetInnerHTML={{__html: article.intro}} />
+                <div className="article-intro" dangerouslySetInnerHTML={{__html: article.intro}} />
 
                 <ArticleImage image={article.image} />
                 
